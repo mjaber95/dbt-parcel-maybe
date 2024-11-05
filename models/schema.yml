@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: raw_data_circle
+    tables:
+      - name: raw_cc_parcel
+      - name: raw_cc_parcel_product
