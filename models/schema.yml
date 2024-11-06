@@ -16,6 +16,3 @@ sources:
         description: product table
         columns:
           - name: ParCEL_id
-
-      
-                  

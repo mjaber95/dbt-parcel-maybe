@@ -42,3 +42,7 @@ models:
       +materialized: view
     intermediate:
       +materialized: view
+    mart:
+      +materialized: table
+      kpi_table:
+        +schema: BI_dashboard
