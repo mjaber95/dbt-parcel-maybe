@@ -2,6 +2,20 @@ version: 2
 
 sources:
   - name: raw_data_circle
+    description: raw dataset
     tables:
       - name: raw_cc_parcel
+        description: parcel table
+        columns:
+          - name: Parcel_id
+            description: parcel identifier
+            tests:
+              - unique
+              - not_null
       - name: raw_cc_parcel_product
+        description: product table
+        columns:
+          - name: ParCEL_id
+
+      
+                  

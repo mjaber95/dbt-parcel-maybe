@@ -10,7 +10,7 @@ renamed as (
 
     select
         parcel_id,
-        model_mame,
+        model_mame AS model_name,
         quantity
 
     from source
